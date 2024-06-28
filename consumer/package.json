@@ -1,0 +1,16 @@
+{
+    "name": "biographical-consumer",
+    "version": "1.0.0",
+    "description": "Kafka consumer for biographical data",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "node src/index.js"
+    },
+    "dependencies": {
+      "aws-sdk": "^2.814.0",
+      "dotenv": "^10.0.0",
+      "kafkajs": "^1.15.0",
+      "pg": "^8.6.0"
+    }
+  }
+  
